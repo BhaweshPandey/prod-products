@@ -1,0 +1,118 @@
+/* Meyerweb Reset CSS v2.0 - http://meyerweb.com/eric/tools/css/reset/ 
+   License: Public Domain 
+*/
+
+:root{
+    --pink: #F03A76;
+    --link-water: #DEECF9;
+    --tropical-blue: #C7E0FA;
+    --white: #FFF;
+    --steel-gray: #181823;
+    --black: #0000;
+    --java: #14B8E4;
+    --alto: #D5D5D5;
+    --titan-white: #FAFAFF;
+    --tundora: #4A4A4A;
+    --scorpion: #575757;
+    --wisp-pink: #FDE8EF;
+}
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-size: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+
+body {
+    line-height: 1;
+    font-family: Lato, sans-serif;    
+}
+
+
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+  .gradient-bg {
+    position: absolute;
+    top:-60px;
+    z-index: -3;
+    right: 0px;
+    border-radius: 50%;
+    width: 23%;
+    height: 60%;
+    background: radial-gradient(circle at 47% 53%, #BEEEF5 0%, rgba(242, 217, 253, 0.2) 100%);
+    filter: blur(90px);
+  }
+  
+  .rlt-gradient{
+    position: absolute;
+    top:-60px;
+    z-index: -3;
+    left: 0px;
+    border-radius: 50%;
+    width: 23%;
+    height: 60%;
+    background: radial-gradient(circle at 47% 53%, #BEEEF5 0%, rgba(242, 217, 253, 0.2) 100%);
+    filter: blur(90px);
+  }
+  
+.swiper-button-prev:after, .swiper-button-next:after{
+    width:130px;
+    display:flex;
+    border-radius:50%;
+    align-items:center;
+    justify-content:center;
+    background-color:var(--pink);
+    color:var(--white);
+    font-size:1rem !important;
+    height:32px;
+  }
+
+ 
+/* Custom Scrollbar Styles for Webkit Browsers (Chrome, Safari) */
+
+/* Scrollbar Styles for Firefox */
+html {
+    scrollbar-width: none; /* Thin scrollbar */
+    scrollbar-color: #888 #f1f1f1; /* Thumb and track colors */
+}
+
+/* Optional: To support Internet Explorer */

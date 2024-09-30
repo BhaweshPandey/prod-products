@@ -1,0 +1,47 @@
+.cardContainer{
+    padding: 18px;
+    margin-top: 40px;
+    /* background-color:#000; */
+    min-height: 200px;
+    border-radius: 15px;
+    max-width: 300px
+}
+
+.darkContainer{
+    background-color:#000;
+
+}
+
+.lightContainer{
+    box-shadow: 2px 11px 30px 0px #33333314;
+
+}
+
+.cardImage{
+    width: 100px;
+}
+
+
+.darkTitle{
+    color: var(--tropical-blue);
+  }
+  
+  .lightTitle {
+    color: var(--scorpion);
+  }
+  
+
+.cardTitle{
+    margin-top: 12px;
+    /* color:var(--tropical-blue); */
+    font-size: clamp(1.1rem, 2.3vw, 1.5rem);
+    font-weight: 700;
+    text-align: center;
+}
+
+.cardDescription{
+    margin-top: 12px;
+    /* color:var(--tropical-blue); */
+    font-size: clamp(0.5rem, 2.3vw, 0.9rem);
+    text-align:center;
+}
